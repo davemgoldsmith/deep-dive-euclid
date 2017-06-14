@@ -16,10 +16,12 @@ public class Gcd {
 		catch(NumberFormatException ex){
 			ex.printStackTrace();
 			System.out.println("This application requires two integer values");
-					
+		}
+		catch(ArrayIndexOutOfBoundsException ex){
+			
+			System.out.println("This application must have at least two integer values");
 			
 		}
-		
 	}
 
 }
